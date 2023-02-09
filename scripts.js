@@ -20,3 +20,11 @@ btm.addEventListener('click', () => {
     text.textContent = currentColor;
 
 })
+
+$(function(){
+    $('a[href=""]').click(function(){
+      // убать alert
+      alert();
+      return false;
+    });
+  });
